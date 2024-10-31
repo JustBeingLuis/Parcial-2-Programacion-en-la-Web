@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover Photos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mars Rover Photos</h1>
+        <h3>By Luis Toscano</h3>
+        <h4>Welcome to my page exploring Mars through NASA's API! Discover stunning images from the Curiosity, Opportunity, and Spirit rovers, filtered by Martian days or Earth dates. Dive into Mars through unique rover cameras and perspectives!</h6>
+    </header>
+
+    <section id="search">
+        <h3>Search a date!!</h3>
+        <label for="earth-date">Earth Date: </label>
+        <input type="date" id="earth-date" value="2015-07-02">
+        <button id="find-button">Find</button>
+    </section>
+
+    <section id="content">
+        <table id="photos-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Rover Name</th>
+                    <th>Camera</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+        <div id="photo-details">
+            
+        </div>
+    </section>
+
+    <footer>
+        <button id="prev-page">Previous</button>
+        <button id="next-page">Next</button>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
